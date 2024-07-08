@@ -46,6 +46,10 @@ color: #757575;
 
 }
 
+.text-center {
+    text-align: center;
+}
+
 
 /* header styles */
 .header {
@@ -127,16 +131,18 @@ font-size: 85px;
 main {
    max-width: 1140px;
    margin: 0px auto;
+   
   
 }
 
+main section {margin-top: 130px;
+margin-bottom: 130px;}
 /* about styles */
  .about {
     border-radius: 10px;
     padding: 130px 155px;
     text-align: center;
-    margin-top: 130px
-    ;}
+}
 
     .about-items {
         display: flex;
@@ -148,3 +154,24 @@ main {
 
     }
 
+/* skills section styles */
+    .skills-container {
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+        margin: 30px;
+        background-color:#FFF8F3;
+        padding-top: 20px;
+        
+    }
+
+    .skill-description {
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        border-radius: 5px;
+        box-shadow: 0px 6px 50px 0 rgba(0, 0, 0, 0.06);
+
+    }
+
+   
